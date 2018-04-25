@@ -28,6 +28,10 @@ int div (int divisor, int dividendo) {
 	return divisor/dividendo;
 }
 
+int mod (int divisor, int dividendo) {
+	return divisor % dividendo;
+}
+
 int main() {
 	
 	return 0;
