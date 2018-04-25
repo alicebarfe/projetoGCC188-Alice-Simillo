@@ -1,20 +1,21 @@
-# GCC188 - Atividade Git
+# Engenharia de Software (GCC188) - Atividade Git
 
-A atividade consiste no desenvolvimento de uma calculadora e suas versões, sequencialmente.
+Projeto calculadora:
+A atividade consiste no desenvolvimento de uma calculadora e suas versões, sequencialmente, controlada por versões. Cada versão contempla um tipo de funcionalidade da calculadora. Abaixo, especificações das versões.
 
 Versão 0.1:
-- RF01. A calculadora deve realizar a função de incremento;
-- RF02. A calculadora deve realizar a função de decremento.
+- RF01. Função de incremento;
+- RF02. Função de decremento.
 
 Versão 1.0:
-- RF03. A calculadora deve realizar a função de adição;
-- RF04. A calculadora deve realizar a função de subtração.
+- RF03. Função de adição;
+- RF04. Função de subtração.
 
 Versão 2.0:
-- RF05. A calculadora deve realizar a função de multiplicação;
-- RF06. A calculadora deve realizar a função de divisão inteira;
-- RF07. A calculadora deve realizar a função de resto;
-- Fix01. A funcionalidade RF04 deve retornar 0 sempre que a operação resultar em valor negativo;
-- Fix02. Para operações de soma, a calculadora deve poder receber 2, 3 ou 4 parâmetros.
+- RF05. Função de multiplicação;
+- RF06. Função de divisão inteira;
+- RF07. Função de resto;
+- Fix01. RF04 retorna 0 sempre que a operação resulta em valor negativo;
+- Fix02. Para operações de soma, a calculadora pode receber 2, 3 ou 4 parâmetros.
 
 Alunos: Alice Barros (alicebarfe@gmail.com) e Simillo Nakai (simillonakai@gmail.com).
