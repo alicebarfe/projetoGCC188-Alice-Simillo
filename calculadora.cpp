@@ -20,6 +20,14 @@ int sub (int x, int y) {
 	return x-y;
 }
 
+int prod (int x, int y) {
+	return x*y;
+}
+
+int div (int divisor, int dividendo) {
+	return divisor/dividendo;
+}
+
 int main() {
 	
 	return 0;
