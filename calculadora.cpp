@@ -17,7 +17,8 @@ int add (int x, int y) {
 }
 
 int sub (int x, int y) {
-	return x-y;
+	int z = x - y;
+	return z < 0 ? 0 : z;
 }
 
 int prod (int x, int y) {
