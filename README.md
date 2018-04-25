@@ -17,4 +17,4 @@ Versão 2.0:
 - Fix01. A funcionalidade RF04 deve retornar 0 sempre que a operação resultar em valor negativo;
 - Fix02. Para operações de soma, a calculadora deve poder receber 2, 3 ou 4 parâmetros.
 
-Alunos: Alice Barros (alicebarfe@gmail.com), Simillo Nakai (simillonakai@gmail.com) e Lucas Arriel (lucas_arriel_lp@hotmail.com).
+Alunos: Alice Barros (alicebarfe@gmail.com) e Simillo Nakai (simillonakai@gmail.com).
