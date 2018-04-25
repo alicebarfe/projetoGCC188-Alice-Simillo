@@ -1,6 +1,7 @@
 #include <iostream>
 
 
+
 using namespace std;
 
 
@@ -13,24 +14,38 @@ int decremento (int x) {
 }
 
 int add (int x, int y, int z = 0, int q = 0) {
-	return x + y + z + q;
+	for (int i = 1; i <= (y + z + q); ++i)
+		x = incremento(x);
+	return x;
 }
 
 int sub (int x, int y) {
-	int z = x - y;
-	return z < 0 ? 0 : z;
+	for (int i = 1; i <= y; ++i)
+		x = decremento(x);
+
+	return x < 0 ? 0 : x;
 }
 
 int prod (int x, int y) {
-	return x*y;
+	int k = 0;
+	for (int i = 0; i < y; ++i) {
+		k += add(x, 0);
+	}
+	return x == 0 ? y : y == 0 ? x : k;
 }
 
 int div (int divisor, int dividendo) {
-	return divisor/dividendo;
+	for (int i = 0; i < dividendo; ++i) {
+		divisor = sub(divisor, dividendo);		
+	}
+	return divisor;
 }
 
 int mod (int divisor, int dividendo) {
-	return divisor % dividendo;
+	if (divisor >= dividendo)
+		divisor = mod (sub(divisor, dividendo), dividendo);
+
+	return divisor;
 }
 
 int main() {
